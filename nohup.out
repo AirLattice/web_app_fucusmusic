@@ -1,0 +1,462 @@
+Connected to 3000 port
+Connected to 3000 port
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Function.listen (/home/braden/web/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/braden/web/app.js:163:5)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Function.listen (/home/braden/web/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/braden/web/app.js:163:5)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Function.listen (/home/braden/web/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/braden/web/app.js:163:5)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+Unhandled rejection OrientDB.ConnectionError [ECONNREFUSED]: connect ECONNREFUSED 45.119.145.162:2424
+    at Connection.<anonymous> (/home/braden/web/node_modules/orientjs/lib/transport/binary/connection.js:182:14)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Unhandled rejection OrientDB.ConnectionError [ECONNREFUSED]: connect ECONNREFUSED 45.119.145.162:2424
+    at Connection.<anonymous> (/home/braden/web/node_modules/orientjs/lib/transport/binary/connection.js:182:14)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Unhandled rejection OrientDB.ConnectionError [ECONNREFUSED]: connect ECONNREFUSED 45.119.145.162:2424
+    at Connection.<anonymous> (/home/braden/web/node_modules/orientjs/lib/transport/binary/connection.js:182:14)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Connected to 3000 port
+           .                                          
+          .`        `                                 
+          ,      `:.                                  
+         `,`    ,:`                                   
+         .,.   :,,                                    
+         .,,  ,,,                                     
+    .    .,.:::::  ````                                 :::::::::     :::::::::   
+    ,`   .::,,,,::.,,,,,,`;;                      .:    ::::::::::    :::    :::  
+    `,.  ::,,,,,,,:.,,.`  `                       .:    :::      :::  :::     ::: 
+     ,,:,:,,,,,,,,::.   `        `         ``     .:    :::      :::  :::     ::: 
+      ,,:.,,,,,,,,,: `::, ,,   ::,::`   : :,::`  ::::   :::      :::  :::    :::  
+       ,:,,,,,,,,,,::,:   ,,  :.    :   ::    :   .:    :::      :::  :::::::     
+        :,,,,,,,,,,:,::   ,,  :      :  :     :   .:    :::      :::  :::::::::   
+  `     :,,,,,,,,,,:,::,  ,, .::::::::  :     :   .:    :::      :::  :::     ::: 
+  `,...,,:,,,,,,,,,: .:,. ,, ,,         :     :   .:    :::      :::  :::     ::: 
+    .,,,,::,,,,,,,:  `: , ,,  :     `   :     :   .:    :::      :::  :::     ::: 
+      ...,::,,,,::.. `:  .,,  :,    :   :     :   .:    :::::::::::   :::     ::: 
+           ,::::,,,. `:   ,,   :::::    :     :   .:    :::::::::     ::::::::::  
+           ,,:` `,,.                                  
+          ,,,    .,`                                  
+         ,,.     `,                                          GRAPH DATABASE  
+       ``        `.                                                          
+                 ``                                          orientdb.com
+                 `                                    
+removing old pid file /opt/orientdb/bin/orient.pid
+
+2018-05-15 20:49:14:753 INFO  Loading configuration from: /opt/orientdb/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2018-05-15 20:49:15:267 INFO  OrientDB Server v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139) is starting up... [OServer]
+2018-05-15 20:49:15:272 INFO  Databases directory: /opt/orientdb/databases [OServer]
+2018-05-15 20:49:15:366 WARNI Not enough physical memory available for DISKCACHE: 1,991MB (heap=247MB direct=524,288MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 20:49:15:366 INFO  OrientDB config DISKCACHE=256MB (heap=247MB direct=524,288MB os=1,991MB) [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 20:49:16:012 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.36, socket=default) [OServerNetworkListener]
+2018-05-15 20:49:16:021 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2018-05-15 20:49:16:039 INFO  Installing dynamic plugin 'orientdb-studio-2.2.20.zip'... [OServerPluginManager]
+2018-05-15 20:49:16:050 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2018-05-15 20:49:16:051 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2018-05-15 20:49:16:052 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2018-05-15 20:49:16:092 INFO  Installed GREMLIN language v.2.6.0 - graph.pool.max=50 [OGraphServerHandler]
+2018-05-15 20:49:16:093 INFO  [OVariableParser.resolveVariables] Error on resolving property: distributed [orientechnologies]
+2018-05-15 20:49:16:099 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2018-05-15 20:49:16:101 INFO  OrientDB Studio available at http://10.41.2.117:2480/studio/index.html [OServer]
+2018-05-15 20:49:16:108 INFO  OrientDB Server is active v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139). [OServer]
+2018-05-15 20:49:32:510 WARNI Received signal: SIGINT [OSignalHandler]
+2018-05-15 20:49:32:511 INFO  OrientDB Server is shutting down... [OServer]
+2018-05-15 20:49:32:515 INFO  Shutting down listeners: [OServer]
+2018-05-15 20:49:32:519 INFO  - ONetworkProtocolBinary /0.0.0.0:2424: [OServer]
+2018-05-15 20:49:32:525 INFO  - ONetworkProtocolHttpDb /0.0.0.0:2480: [OServer]
+2018-05-15 20:49:32:526 INFO  Shutting down protocols [OServer]
+2018-05-15 20:49:32:526 INFO  Shutting down plugins: [OServerPluginManager]
+2018-05-15 20:49:32:526 INFO  - studio [OServerPluginManager]
+2018-05-15 20:49:32:527 INFO  - script-interpreter [OServerPluginManager]           .                                          
+          .`        `                                 
+          ,      `:.                                  
+         `,`    ,:`                                   
+         .,.   :,,                                    
+         .,,  ,,,                                     
+    .    .,.:::::  ````                                 :::::::::     :::::::::   
+    ,`   .::,,,,::.,,,,,,`;;                      .:    ::::::::::    :::    :::  
+    `,.  ::,,,,,,,:.,,.`  `                       .:    :::      :::  :::     ::: 
+     ,,:,:,,,,,,,,::.   `        `         ``     .:    :::      :::  :::     ::: 
+      ,,:.,,,,,,,,,: `::, ,,   ::,::`   : :,::`  ::::   :::      :::  :::    :::  
+       ,:,,,,,,,,,,::,:   ,,  :.    :   ::    :   .:    :::      :::  :::::::     
+        :,,,,,,,,,,:,::   ,,  :      :  :     :   .:    :::      :::  :::::::::   
+  `     :,,,,,,,,,,:,::,  ,, .::::::::  :     :   .:    :::      :::  :::     ::: 
+  `,...,,:,,,,,,,,,: .:,. ,, ,,         :     :   .:    :::      :::  :::     ::: 
+    .,,,,::,,,,,,,:  `: , ,,  :     `   :     :   .:    :::      :::  :::     ::: 
+      ...,::,,,,::.. `:  .,,  :,    :   :     :   .:    :::::::::::   :::     ::: 
+           ,::::,,,. `:   ,,   :::::    :     :   .:    :::::::::     ::::::::::  
+           ,,:` `,,.                                  
+          ,,,    .,`                                  
+         ,,.     `,                                          GRAPH DATABASE  
+       ``        `.                                                          
+                 ``                                          orientdb.com
+                 `                                    
+removing old pid file /opt/orientdb/bin/orient.pid
+
+2018-05-15 20:50:01:604 INFO  Loading configuration from: /opt/orientdb/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2018-05-15 20:50:02:116 INFO  OrientDB Server v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139) is starting up... [OServer]
+2018-05-15 20:50:02:125 INFO  Databases directory: /opt/orientdb/databases [OServer]
+2018-05-15 20:50:02:235 WARNI Not enough physical memory available for DISKCACHE: 1,991MB (heap=247MB direct=524,288MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 20:50:02:235 INFO  OrientDB config DISKCACHE=256MB (heap=247MB direct=524,288MB os=1,991MB) [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 20:50:02:913 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.36, socket=default) [OServerNetworkListener]
+2018-05-15 20:50:02:916 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2018-05-15 20:50:02:930 INFO  Installing dynamic plugin 'orientdb-studio-2.2.20.zip'... [OServerPluginManager]
+2018-05-15 20:50:02:934 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2018-05-15 20:50:02:942 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2018-05-15 20:50:02:943 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2018-05-15 20:50:02:977 INFO  Installed GREMLIN language v.2.6.0 - graph.pool.max=50 [OGraphServerHandler]
+2018-05-15 20:50:02:977 INFO  [OVariableParser.resolveVariables] Error on resolving property: distributed [orientechnologies]
+2018-05-15 20:50:02:981 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2018-05-15 20:50:02:987 INFO  OrientDB Studio available at http://10.41.2.117:2480/studio/index.html [OServer]
+2018-05-15 20:50:02:992 INFO  OrientDB Server is active v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139). [OServer]
+2018-05-15 20:50:04:776 WARNI Received signal: SIGINT [OSignalHandler]
+2018-05-15 20:50:04:777 INFO  OrientDB Server is shutting down... [OServer]
+2018-05-15 20:50:04:783 INFO  Shutting down listeners: [OServer]
+2018-05-15 20:50:04:787 INFO  - ONetworkProtocolBinary /0.0.0.0:2424: [OServer]
+2018-05-15 20:50:04:790 INFO  - ONetworkProtocolHttpDb /0.0.0.0:2480: [OServer]
+2018-05-15 20:50:04:791 INFO  Shutting down protocols [OServer]
+2018-05-15 20:50:04:791 INFO  Shutting down plugins: [OServerPluginManager]
+2018-05-15 20:50:04:791 INFO  - studio [OServerPluginManager]
+2018-05-15 20:50:04:792 INFO  - script-interpreter [OServerPluginManager]
+2018-05-15 20:50:04:792 INFO  - graph [OServerPluginManager]
+2018-05-15 20:50:04:792 INFO  Shutting down databases: [OServer]
+2018-05-15 20:50:04:792 INFO  Orient Engine is shutting down... [Orient]
+2018-05-15 20:50:04:793 INFO  - shutdown storage: OSystem... [Orient]
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+           .                                          
+          .`        `                                 
+          ,      `:.                                  
+         `,`    ,:`                                   
+         .,.   :,,                                    
+         .,,  ,,,                                     
+    .    .,.:::::  ````                                 :::::::::     :::::::::   
+    ,`   .::,,,,::.,,,,,,`;;                      .:    ::::::::::    :::    :::  
+    `,.  ::,,,,,,,:.,,.`  `                       .:    :::      :::  :::     ::: 
+     ,,:,:,,,,,,,,::.   `        `         ``     .:    :::      :::  :::     ::: 
+      ,,:.,,,,,,,,,: `::, ,,   ::,::`   : :,::`  ::::   :::      :::  :::    :::  
+       ,:,,,,,,,,,,::,:   ,,  :.    :   ::    :   .:    :::      :::  :::::::     
+        :,,,,,,,,,,:,::   ,,  :      :  :     :   .:    :::      :::  :::::::::   
+  `     :,,,,,,,,,,:,::,  ,, .::::::::  :     :   .:    :::      :::  :::     ::: 
+  `,...,,:,,,,,,,,,: .:,. ,, ,,         :     :   .:    :::      :::  :::     ::: 
+    .,,,,::,,,,,,,:  `: , ,,  :     `   :     :   .:    :::      :::  :::     ::: 
+      ...,::,,,,::.. `:  .,,  :,    :   :     :   .:    :::::::::::   :::     ::: 
+           ,::::,,,. `:   ,,   :::::    :     :   .:    :::::::::     ::::::::::  
+           ,,:` `,,.                                  
+          ,,,    .,`                                  
+         ,,.     `,                                          GRAPH DATABASE  
+       ``        `.                                                          
+                 ``                                          orientdb.com
+                 `                                    
+removing old pid file /opt/orientdb/bin/orient.pid
+
+2018-05-15 21:02:15:235 INFO  Loading configuration from: /opt/orientdb/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2018-05-15 21:02:15:741 INFO  OrientDB Server v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139) is starting up... [OServer]
+2018-05-15 21:02:15:750 INFO  Databases directory: /opt/orientdb/databases [OServer]
+2018-05-15 21:02:15:857 WARNI Not enough physical memory available for DISKCACHE: 1,991MB (heap=247MB direct=524,288MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 21:02:15:857 INFO  OrientDB config DISKCACHE=256MB (heap=247MB direct=524,288MB os=1,991MB) [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 21:02:16:528 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.36, socket=default) [OServerNetworkListener]
+2018-05-15 21:02:16:531 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2018-05-15 21:02:16:546 INFO  Installing dynamic plugin 'orientdb-studio-2.2.20.zip'... [OServerPluginManager]
+2018-05-15 21:02:16:555 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2018-05-15 21:02:16:559 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2018-05-15 21:02:16:560 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2018-05-15 21:02:16:588 INFO  Installed GREMLIN language v.2.6.0 - graph.pool.max=50 [OGraphServerHandler]
+2018-05-15 21:02:16:591 INFO  [OVariableParser.resolveVariables] Error on resolving property: distributed [orientechnologies]
+2018-05-15 21:02:16:593 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2018-05-15 21:02:16:595 INFO  OrientDB Studio available at http://10.41.2.117:2480/studio/index.html [OServer]
+2018-05-15 21:02:16:598 INFO  OrientDB Server is active v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139). [OServer]
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+Running node-supervisor with
+  program 'app.js'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+Starting child process with 'node app.js'
+Watching directory '/home/braden/web' for changes.
+Press rs for restarting the process.
+Parent process exiting, terminating child...
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Error on loading resource /studio/main.js
+java.net.SocketException: Connection timed out (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:95)
+	at com.orientechnologies.orient.server.network.protocol.http.OHttpResponse.sendStream(OHttpResponse.java:488)
+	at com.orientechnologies.orient.server.network.protocol.http.OHttpResponse.sendStream(OHttpResponse.java:453)
+	at com.orientechnologies.orient.server.network.protocol.http.command.get.OServerCommandGetStaticContent.execute(OServerCommandGetStaticContent.java:134)
+	at com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpAbstract.service(ONetworkProtocolHttpAbstract.java:169)
+	at com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpAbstract.execute(ONetworkProtocolHttpAbstract.java:621)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:77)
+Error on loading resource /studio/main.js
+java.net.SocketException: Connection timed out (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:95)
+	at com.orientechnologies.orient.server.network.protocol.http.OHttpResponse.sendStream(OHttpResponse.java:488)
+	at com.orientechnologies.orient.server.network.protocol.http.OHttpResponse.sendStream(OHttpResponse.java:453)
+	at com.orientechnologies.orient.server.network.protocol.http.command.get.OServerCommandGetStaticContent.execute(OServerCommandGetStaticContent.java:134)
+	at com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpAbstract.service(ONetworkProtocolHttpAbstract.java:169)
+	at com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpAbstract.execute(ONetworkProtocolHttpAbstract.java:621)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:77)
+           .                                          
+          .`        `                                 
+          ,      `:.                                  
+         `,`    ,:`                                   
+         .,.   :,,                                    
+         .,,  ,,,                                     
+    .    .,.:::::  ````                                 :::::::::     :::::::::   
+    ,`   .::,,,,::.,,,,,,`;;                      .:    ::::::::::    :::    :::  
+    `,.  ::,,,,,,,:.,,.`  `                       .:    :::      :::  :::     ::: 
+     ,,:,:,,,,,,,,::.   `        `         ``     .:    :::      :::  :::     ::: 
+      ,,:.,,,,,,,,,: `::, ,,   ::,::`   : :,::`  ::::   :::      :::  :::    :::  
+       ,:,,,,,,,,,,::,:   ,,  :.    :   ::    :   .:    :::      :::  :::::::     
+        :,,,,,,,,,,:,::   ,,  :      :  :     :   .:    :::      :::  :::::::::   
+  `     :,,,,,,,,,,:,::,  ,, .::::::::  :     :   .:    :::      :::  :::     ::: 
+  `,...,,:,,,,,,,,,: .:,. ,, ,,         :     :   .:    :::      :::  :::     ::: 
+    .,,,,::,,,,,,,:  `: , ,,  :     `   :     :   .:    :::      :::  :::     ::: 
+      ...,::,,,,::.. `:  .,,  :,    :   :     :   .:    :::::::::::   :::     ::: 
+           ,::::,,,. `:   ,,   :::::    :     :   .:    :::::::::     ::::::::::  
+           ,,:` `,,.                                  
+          ,,,    .,`                                  
+         ,,.     `,                                          GRAPH DATABASE  
+       ``        `.                                                          
+                 ``                                          orientdb.com
+                 `                                    
+removing old pid file /opt/orientdb/bin/orient.pid
+
+2018-05-15 23:12:13:202 INFO  Loading configuration from: /opt/orientdb/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2018-05-15 23:12:13:722 INFO  OrientDB Server v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139) is starting up... [OServer]
+2018-05-15 23:12:13:728 INFO  Databases directory: /opt/orientdb/databases [OServer]
+2018-05-15 23:12:13:848 WARNI Not enough physical memory available for DISKCACHE: 1,991MB (heap=247MB direct=524,288MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 23:12:13:849 INFO  OrientDB config DISKCACHE=256MB (heap=247MB direct=524,288MB os=1,991MB) [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 23:12:14:606 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.36, socket=default) [OServerNetworkListener]
+2018-05-15 23:12:14:610 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2018-05-15 23:12:14:628 INFO  Installing dynamic plugin 'orientdb-studio-2.2.20.zip'... [OServerPluginManager]
+2018-05-15 23:12:14:637 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2018-05-15 23:12:14:646 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2018-05-15 23:12:14:646 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2018-05-15 23:12:14:685 INFO  Installed GREMLIN language v.2.6.0 - graph.pool.max=50 [OGraphServerHandler]
+2018-05-15 23:12:14:685 INFO  [OVariableParser.resolveVariables] Error on resolving property: distributed [orientechnologies]
+2018-05-15 23:12:14:688 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2018-05-15 23:12:14:690 INFO  OrientDB Studio available at http://10.41.2.117:2480/studio/index.html [OServer]
+2018-05-15 23:12:14:692 INFO  OrientDB Server is active v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139). [OServer]
+2018-05-15 23:12:26:454 WARNI Received signal: SIGINT [OSignalHandler]
+2018-05-15 23:12:26:455 INFO  OrientDB Server is shutting down... [OServer]
+2018-05-15 23:12:26:462 INFO  Shutting down listeners: [OServer]
+2018-05-15 23:12:26:462 INFO  - ONetworkProtocolBinary /0.0.0.0:2424: [OServer]
+2018-05-15 23:12:26:462 INFO  - ONetworkProtocolHttpDb /0.0.0.0:2480: [OServer]
+2018-05-15 23:12:26:463 INFO  Shutting down protocols [OServer]
+2018-05-15 23:12:26:463 INFO  Shutting down plugins: [OServerPluginManager]
+2018-05-15 23:12:26:463 INFO  - studio [OServerPluginManager]
+2018-05-15 23:12:26:464 INFO  - script-interpreter [OServerPluginManager]
+2018-05-15 23:12:26:464 INFO  - graph [OServerPluginManager]
+2018-05-15 23:12:26:464 INFO  Shutting down databases: [OServer]
+2018-05-15 23:12:26:464 INFO  Orient Engine is shutting down... [Orient]           .                                          
+          .`        `                                 
+          ,      `:.                                  
+         `,`    ,:`                                   
+         .,.   :,,                                    
+         .,,  ,,,                                     
+    .    .,.:::::  ````                                 :::::::::     :::::::::   
+    ,`   .::,,,,::.,,,,,,`;;                      .:    ::::::::::    :::    :::  
+    `,.  ::,,,,,,,:.,,.`  `                       .:    :::      :::  :::     ::: 
+     ,,:,:,,,,,,,,::.   `        `         ``     .:    :::      :::  :::     ::: 
+      ,,:.,,,,,,,,,: `::, ,,   ::,::`   : :,::`  ::::   :::      :::  :::    :::  
+       ,:,,,,,,,,,,::,:   ,,  :.    :   ::    :   .:    :::      :::  :::::::     
+        :,,,,,,,,,,:,::   ,,  :      :  :     :   .:    :::      :::  :::::::::   
+  `     :,,,,,,,,,,:,::,  ,, .::::::::  :     :   .:    :::      :::  :::     ::: 
+  `,...,,:,,,,,,,,,: .:,. ,, ,,         :     :   .:    :::      :::  :::     ::: 
+    .,,,,::,,,,,,,:  `: , ,,  :     `   :     :   .:    :::      :::  :::     ::: 
+      ...,::,,,,::.. `:  .,,  :,    :   :     :   .:    :::::::::::   :::     ::: 
+           ,::::,,,. `:   ,,   :::::    :     :   .:    :::::::::     ::::::::::  
+           ,,:` `,,.                                  
+          ,,,    .,`                                  
+         ,,.     `,                                          GRAPH DATABASE  
+       ``        `.                                                          
+                 ``                                          orientdb.com
+                 `                                    
+removing old pid file /opt/orientdb/bin/orient.pid
+
+2018-05-15 23:16:47:193 INFO  Loading configuration from: /opt/orientdb/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2018-05-15 23:16:47:725 INFO  OrientDB Server v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139) is starting up... [OServer]
+2018-05-15 23:16:47:732 INFO  Databases directory: /opt/orientdb/databases [OServer]
+2018-05-15 23:16:47:848 WARNI Not enough physical memory available for DISKCACHE: 1,991MB (heap=247MB direct=524,288MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 23:16:47:849 INFO  OrientDB config DISKCACHE=256MB (heap=247MB direct=524,288MB os=1,991MB) [OMemoryAndLocalPaginatedEnginesInitializer]
+2018-05-15 23:16:48:537 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.36, socket=default) [OServerNetworkListener]
+2018-05-15 23:16:48:541 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2018-05-15 23:16:48:556 INFO  Installing dynamic plugin 'orientdb-studio-2.2.20.zip'... [OServerPluginManager]
+2018-05-15 23:16:48:566 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2018-05-15 23:16:48:571 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2018-05-15 23:16:48:571 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2018-05-15 23:16:48:600 INFO  Installed GREMLIN language v.2.6.0 - graph.pool.max=50 [OGraphServerHandler]
+2018-05-15 23:16:48:601 INFO  [OVariableParser.resolveVariables] Error on resolving property: distributed [orientechnologies]
+2018-05-15 23:16:48:607 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2018-05-15 23:16:48:609 INFO  OrientDB Studio available at http://10.41.2.117:2480/studio/index.html [OServer]
+2018-05-15 23:16:48:615 INFO  OrientDB Server is active v2.2.20 (build 76ab59e72943d0ba196188ed100c882be4315139). [OServer]
+2018-05-15 23:16:57:539 WARNI Received signal: SIGINT [OSignalHandler]
+2018-05-15 23:16:57:540 INFO  OrientDB Server is shutting down... [OServer]
+2018-05-15 23:16:57:547 INFO  Shutting down listeners: [OServer]
+2018-05-15 23:16:57:550 INFO  - ONetworkProtocolBinary /0.0.0.0:2424: [OServer]
+2018-05-15 23:16:57:554 INFO  - ONetworkProtocolHttpDb /0.0.0.0:2480: [OServer]
+2018-05-15 23:16:57:554 INFO  Shutting down protocols [OServer]
+2018-05-15 23:16:57:554 INFO  Shutting down plugins: [OServerPluginManager]
+2018-05-15 23:16:57:555 INFO  - studio [OServerPluginManager]
+2018-05-15 23:16:57:555 INFO  - script-interpreter [OServerPluginManager]
+2018-05-15 23:16:57:555 INFO  - graph [OServerPluginManager]
+2018-05-15 23:16:57:555 INFO  Shutting down databases: [OServer]
+2018-05-15 23:16:57:556 INFO  Orient Engine is shutting down... [Orient]
+2018-05-15 23:16:57:556 INFO  - shutdown storage: OSystem... [Orient]

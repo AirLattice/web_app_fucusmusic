@@ -1,7 +1,9 @@
 var express = require('express');
 var bodyparser = require('body-parser');
+var cookieParser = require('cookie-parser');
 var app = express();
 app.use(bodyparser.urlencoded({ extended: false }));
+app.use(cookieParser());
 app.set('view engine', 'pug');
 app.set('views', './views');
 app.locals.pretty = true;
@@ -16,10 +18,24 @@ var server = OrientDB({
 var db = server.use('focusmusic');
 
 
+app.get('/list', function(req, res){
+  var sql = 'SELECT FROM musiclist'
+  db.query(sql).then(function(list){
+    res.render('list', {lists:list});
+  });
+});
+
+
+
+app.get('/count', function(req, res){
+  res.cookie('count', 1);
+  var count_val = 'count : '+ req.cookies.count;
+  res.render('count', {count_val});
+});
 app.get('/new', function(req, res){
   res.render('new');
 });
-app.get('/', function(req, res){
+app.get('/main', function(req, res){
   res.render('view');
 });
 app.get('/sql', function(req, res){
@@ -28,7 +44,9 @@ app.get('/sql', function(req, res){
     res.send(results);
   });
 });
-
+app.get('/login', function(req, res){
+  res.render('login');
+});
 
 // app.get('/upload', function(req, res){
 //   res.render('upload');
