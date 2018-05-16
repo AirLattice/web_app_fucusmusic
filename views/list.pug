@@ -9,7 +9,7 @@ html
       each list in lists
         li
           - rid = encodeURIComponent(list['@rid'])
-          a(href='/'+rid)= list.title
+          a(href='/'+rid)= list.unnamed
     p
       a(href='/new') New
     p
