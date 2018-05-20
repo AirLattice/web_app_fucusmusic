@@ -10,16 +10,16 @@ app.locals.pretty = true;
 
 var OrientDB = require('orientjs');
 var server = OrientDB({
-  host: '45.119.145.162',
+  host: '10.10.10.3',
   port: 2424,
   username: 'root',
-  password: 'jin85200++'
+  password: 'jin85200--'
 });
-var db = server.use('focusmusic');
+var db = server.use('focus');
 
 
 app.get('/list', function(req, res){
-  var sql = 'SELECT FROM musiclist'
+  var sql = 'SELECT FROM list'
   db.query(sql).then(function(list){
     res.render('list', {lists:list});
   });
@@ -39,7 +39,7 @@ app.get('/main', function(req, res){
   res.render('view');
 });
 app.get('/sql', function(req, res){
-  var sql = "SELECT FROM topic";
+  var sql = "SELECT FROM list";
   db.query(sql).then(function(results){
     res.send(results);
   });
